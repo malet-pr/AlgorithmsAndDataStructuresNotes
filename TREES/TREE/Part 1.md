@@ -17,11 +17,15 @@ So the recursive idea is:
 		Node(value, leftTree, rightTree)
 		
 I suggest we start in *OCaml*, because it makes the recursive shape clearest:
-```ocaml
-type int_tree =  
-	| Empty  
-	| Node of int * int_tree * int_tree
 ```
+
+```
+```ocaml
+type int_tree =
+  | Empty
+  | Node of int * int_tree * int_tree
+```
+
 Example tree:
 ```ocaml
 let tree =
