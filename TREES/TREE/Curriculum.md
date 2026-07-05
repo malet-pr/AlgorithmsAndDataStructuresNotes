@@ -1,33 +1,34 @@
-### Phase 1 — Mental model
+### Binary tree
 
-Goal: understand trees as recursive data.
-
-Concepts:
-
-- node
-- leaf
-- root
-- child
-- subtree
-- depth
-- traversal
-
-### Phase 2 — Basic binary tree
-
-Example:
-	10  
-	/ \  
-	5 20
-
-Tasks:
-
-- create tree type/class
-- count nodes
-- count leaves
-- calculate depth
-- search for value
-
-### Phase 3 — N-ary tree
+##### 1. Construction ✅
+- Generic tree
+- Example trees
+- Records as values
+##### 2. Basic recursive queries ✅
+- Count nodes
+- Count leaves
+- Depth
+- Search
+- find_by
+- count_by
+##### 3. Traversals
+These are the canonical recursive algorithms.
+- Preorder
+- Inorder
+- Postorder
+##### 4. Transformations
+This is where FP really starts to shine.
+- map
+- filter
+##### 5. Folding (the big one)
+This is probably the most important concept. Once you have a tree fold, many of the functions you've already written become special cases of it.
+##### 6. Binary Search Trees (BST)
+Introduce the BST invariant: left < node < right
+- insert
+- search
+- minimum
+- maximum
+### N-ary tree
 
 Example:
 Project  
@@ -45,7 +46,7 @@ Tasks:
 - find path to node
 - print tree indented
 
-### Phase 4 — Expression trees
+### Expression trees
 
 Example:
 	And  
@@ -61,7 +62,7 @@ Tasks:
 - collect atoms
 - compare binary vs n-ary design
 
-### Phase 5 — JSON to tree
+### JSON to tree
 
 This connects directly to the rules project.
 
@@ -72,7 +73,7 @@ Tasks:
 - evaluate tree
 - handle invalid JSON gracefully
 
-### Phase 6 — Same lab in three languages
+### Same lab in three languages
 
 For each concept:
 1. Explain concept  

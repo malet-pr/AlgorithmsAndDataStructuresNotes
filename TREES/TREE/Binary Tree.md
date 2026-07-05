@@ -17,9 +17,6 @@ So the recursive idea is:
 		Node(value, leftTree, rightTree)
 		
 I suggest we start in *OCaml*, because it makes the recursive shape clearest:
-```
-
-```
 ```ocaml
 type int_tree =
   | Empty
@@ -40,14 +37,7 @@ First exercises:
 2. Count leaves.
 3. Calculate depth.
 4. Search for a value.
+5. Count occurrencies.
 
-Try exercise 1:
-```ocaml
-let rec count_nodes tree =  
-match tree with  
-| Empty -> ?  
-| Node (_, left, right) -> ?
-```
-The key question: what should `Empty` contribute to the count, and what should a `Node` contribute?
 
 
