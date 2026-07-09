@@ -39,5 +39,29 @@ First exercises:
 4. Search for a value.
 5. Count occurrencies.
 
+#### Traversals
+Implement pre- in- and postorder
+- **Pre**-order → visit the node **before** its children.
+- **In**-order → visit the node **in between** the two subtrees.
+- **Post**-order → visit the node **after** its children.
 
+```text
+     10  
+    /  \  
+  5    20
+ / \   / \
+7   9 12  15
 
+preorder: 10,5,7,9,20,12,15
+inorder: 7,5,9,10,12,20,15
+postorder: 7,9,5,12,15,20,10
+```
+
+---
+
+I'd like to end with a challenge instead of giving you the implementation.
+You'll already know how to visit every node. I'll ask:
+
+> "Can you write one generic function that describes _how_ to visit a tree, and express all three traversals using it?"
+
+Don't worry if we don't solve it today. It's a nice bridge toward `fold`, which is one of the most elegant abstractions in functional programming.
