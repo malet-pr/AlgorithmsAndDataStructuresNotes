@@ -37,7 +37,7 @@ First exercises:
 2. Count leaves.
 3. Calculate depth.
 4. Search for a value.
-5. Count occurrencies.
+5. Count occurrences.
 
 #### Traversals
 Implement pre- in- and postorder
