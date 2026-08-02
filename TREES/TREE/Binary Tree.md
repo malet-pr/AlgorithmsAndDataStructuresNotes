@@ -65,3 +65,61 @@ You'll already know how to visit every node. I'll ask:
 > "Can you write one generic function that describes _how_ to visit a tree, and express all three traversals using it?"
 
 Don't worry if we don't solve it today. It's a nice bridge toward `fold`, which is one of the most elegant abstractions in functional programming.
+
+#### Map:
+
+You’ve already done three kinds of operations:
+
+- queries that return one value: `count_nodes`, `calculate_depth`
+- predicates: `find_by`
+- traversals that return lists: `preorder`, `inorder`, `postorder`
+
+Now we do a **transformation**:
+
+> Apply a function to every value while preserving the exact tree shape.
+
+Example:
+
+```
+        10
+       /  \
+      5    20
+```
+
+with:
+
+```
+fun x -> x * 2
+```
+
+becomes:
+
+```
+        20
+       /  \
+      10   40
+```
+
+The type should be:
+
+```
+val map : ('a -> 'b) -> 'a b_tree -> 'b b_tree
+```
+
+Notice the important part:
+
+```
+'a tree → 'b tree
+```
+
+So it can do more than `int -> int`. It could transform:
+
+```
+int b_tree -> string b_tree
+```
+
+For example:
+
+```
+map string_of_int tree
+```

@@ -41,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -167,7 +169,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -177,23 +178,24 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "copilot:Open Copilot Chat": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
       "obsidian-read-it-later:ReadItLater: Create from clipboard": false,
+      "calendarium:Open Calendarium": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "fantasy-content-generator:Fantasy Generators": false,
       "open-vscode:VS Code": false,
-      "markwhen:Create new Markwhen file": false,
-      "calendarium:Open Calendarium": false
+      "markwhen:Create new Markwhen file": false
     }
   },
   "active": "52dad548028ef2ef",
   "lastOpenFiles": [
-    "TREES/TREE/Curriculum.md",
-    "TREES/TREE/Binary Tree.md",
     "Algorithms.md",
+    "TREES/TREE/Binary Tree.md",
+    "TREES/TREE/Curriculum.md",
     "LINEAR/PRIORITY-QUEUE",
     "GRAPHS",
     "TREES",
