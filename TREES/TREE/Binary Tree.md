@@ -42,7 +42,7 @@ First exercises:
 #### Traversals
 Implement pre- in- and postorder
 - **Pre**-order → visit the node **before** its children.
-- **In**-order → visit the node **in between** the two subtrees.
+- **In**-order → visit the node in **between** the two subtrees.
 - **Post**-order → visit the node **after** its children.
 
 ```text
