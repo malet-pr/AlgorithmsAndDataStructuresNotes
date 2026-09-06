@@ -25,10 +25,16 @@ This is probably the most important concept. Once you have a tree fold, many of 
 ### Binary Search Trees (BST)
 
 Introduce the BST invariant: left < node < right
+- validate whether an arbitrary binary tree satisfies the BST invariant
 - insert
 - search
 - minimum
 - maximum
+- inorder traversal and why it produces sorted output
+- delete
+    - leaf
+    - node with one child
+    - node with two children
 ### N-ary tree
 
 Example:
