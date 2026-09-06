@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algorithms.md",
+                "file": "TREES/Curriculum.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Algorithms"
+              "title": "Curriculum"
             }
           },
           {
@@ -207,10 +207,10 @@
   },
   "active": "52988ee283bced6c",
   "lastOpenFiles": [
-    "TREES/Curriculum.md",
     "TREES/Recap.md",
-    "TREES/Binary Tree.md",
     "Algorithms.md",
+    "TREES/Curriculum.md",
+    "TREES/Binary Tree.md",
     "LINEAR/PRIORITY-QUEUE",
     "GRAPHS",
     "TREES",
