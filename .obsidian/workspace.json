@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TREES/Curriculum.md",
+                "file": "TREES/Future Execises.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Curriculum"
+              "title": "Future Execises"
             }
           },
           {
@@ -207,10 +207,11 @@
   },
   "active": "52988ee283bced6c",
   "lastOpenFiles": [
+    "TREES/Binary Tree.md",
+    "TREES/Future Execises.md",
+    "TREES/Curriculum.md",
     "TREES/Recap.md",
     "Algorithms.md",
-    "TREES/Curriculum.md",
-    "TREES/Binary Tree.md",
     "LINEAR/PRIORITY-QUEUE",
     "GRAPHS",
     "TREES",
@@ -241,7 +242,6 @@
     "TYPESCRIPT-FOR-VUE/Curriculum/Lesson 2.md",
     "TYPESCRIPT-FOR-VUE/Exercises/Exercises L1.md",
     "TYPESCRIPT-FOR-VUE/Exercises/Exercises L2.md",
-    "OBSERVABILITY-LAB/DOCS/CLUSTER OPERATIONS.md",
-    "OBSERVABILITY-LAB/DOCS/GOT setup.md"
+    "OBSERVABILITY-LAB/DOCS/CLUSTER OPERATIONS.md"
   ]
 }
